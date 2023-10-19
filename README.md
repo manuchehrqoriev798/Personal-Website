@@ -39,4 +39,4 @@ The website is built using the following technologies:
 - Mixitup (for portfolio filtering)
 - ScrollReveal (for animations)
 
-# This portfolio was inspired by Bi Boo Sand's YouTube videos (@BiBooSand)
+### This portfolio was inspired by Bi Boo Sand's YouTube videos (@BiBooSand)
