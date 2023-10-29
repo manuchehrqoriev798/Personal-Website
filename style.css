@@ -701,7 +701,7 @@ section{
 }
 
 
-/* ==================== Contact section css code ============================ */
+/* ==================== Contact section css code ============================
 
 .contactSkills{
     display: flex;
@@ -725,7 +725,6 @@ section{
 
 .contact-info form input,
 .contact-info form textarea{
-    /* width: 100%; */
     padding: .8rem;
     border: 2px solid #e8e1e1;
     margin: .5rem 0;
@@ -758,7 +757,7 @@ form .btn{
     padding: 15px 20px;
     cursor: pointer;
     border: none;
-}
+} */
 
 /* ==================== Skills section css code ============================ */
 
@@ -886,7 +885,10 @@ footer{
 
 
 
-
+.footer-social-media{
+    margin: 0 auto;
+    padding-top: 30px;
+}
 
 
 
