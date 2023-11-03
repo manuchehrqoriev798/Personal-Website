@@ -180,8 +180,37 @@ ScrollReveal({
 });
 
 
+
 ScrollReveal().reveal('.hero-info,.main-text,.proposal,.heading', { origin: "top" });
 ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "left" });
 ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
 ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
 
+
+
+
+// const themeSwitch = document.getElementById('theme-switch');
+// const body = document.body;
+
+// // Check the user's preference from local storage
+// const isDarkMode = localStorage.getItem('dark-mode') === 'true';
+
+// // Set the initial theme based on user preference
+// if (isDarkMode) {
+//     body.classList.add('dark-mode');
+//     themeSwitch.checked = true;
+// }
+
+// // Function to toggle the theme
+// function toggleTheme() {
+//     if (body.classList.contains('dark-mode')) {
+//         body.classList.remove('dark-mode');
+//         localStorage.setItem('dark-mode', 'false');
+//     } else {
+//         body.classList.add('dark-mode');
+//         localStorage.setItem('dark-mode', 'true');
+//     }
+// }
+
+// // Listen for the switcher change event
+// themeSwitch.addEventListener('change', toggleTheme);
