@@ -462,17 +462,24 @@
     <!-- mixitup cdn js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
-    <script>
-        window.embeddedChatbotConfig = {
-        chatbotId: "TitLqRUiY7VKz-XeBsLLa",
-        domain: "www.chatbase.co"
-        }
+    <!-- Chatbot container with name above the icon -->
+    <div class="chatbot-container">
+        <!-- Chatbot name -->
+        <div class="chatbot-name">My Chatbot</div>
+        
+        <!-- Chatbot script -->
+        <script>
+            window.embeddedChatbotConfig = {
+                chatbotId: "TitLqRUiY7VKz-XeBsLLa",
+                domain: "www.chatbase.co"
+            }
         </script>
         <script
-        src="https://www.chatbase.co/embed.min.js"
-        chatbotId="TitLqRUiY7VKz-XeBsLLa"
-        domain="www.chatbase.co"
-        defer>
-    </script>
+            src="https://www.chatbase.co/embed.min.js"
+            chatbotId="TitLqRUiY7VKz-XeBsLLa"
+            domain="www.chatbase.co"
+            defer>
+        </script>
+    </div>
 </body>
 </html>

@@ -1109,3 +1109,30 @@ footer{
         padding: 13px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for chatbot container */
+.chatbot-container {
+    position: fixed;
+    bottom: 30px; /* Adjust to position the chatbot at the bottom */
+    right: 30px;  /* Adjust to position the chatbot on the right */
+    text-align: center; /* Center the chatbot name */
+}
+
+/* Style for the chatbot name */
+.chatbot-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Adjust the color */
+    margin-bottom: 5px; /* Space between name and chatbot icon */
+}
