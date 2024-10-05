@@ -854,7 +854,7 @@ footer{
     position: fixed;
     /* background: #194eb9; */
     z-index: 1000;
-    bottom: 60px;
+    bottom: 100px;
     right: 10px;
     width: 50px;
     height: 50px;
@@ -1121,18 +1121,40 @@ footer{
 
 
 
+
+
 /* Style for chatbot container */
 .chatbot-container {
     position: fixed;
-    bottom: 30px; /* Adjust to position the chatbot at the bottom */
-    right: 30px;  /* Adjust to position the chatbot on the right */
-    text-align: center; /* Center the chatbot name */
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
 }
 
-/* Style for the chatbot name */
+/* Style for the chatbot name with animation */
 .chatbot-name {
     font-size: 14px;
     font-weight: bold;
-    color: #333; /* Adjust the color */
-    margin-bottom: 5px; /* Space between name and chatbot icon */
+    color: #333;
+    margin-bottom: 45px;
+
+    /* Animation properties */
+    animation: pulse 1.5s infinite;
+    transform-origin: center;
+}
+
+/* Keyframes for the pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: #333;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #007BFF; /* You can choose any color */
+    }
+    100% {
+        transform: scale(1);
+        color: #333;
+    }
 }
