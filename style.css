@@ -1172,19 +1172,3 @@ footer{
 
 
 
-
-
-
-
-
-/* Change the avatar image in the header */
-.bpHeaderContentAvatarImage {
-    content: url('./img/chatbot.png'); /* Change this to your icon URL */
-    border-radius: 50%; /* Keep it circular */
-}
-
-/* Change the avatar image in message containers */
-.bpMessageAvatarImage {
-    content: url('./img/chatbot.png'); /* Change this to your icon URL */
-    border-radius: 50%; /* Keep it circular */
-}
