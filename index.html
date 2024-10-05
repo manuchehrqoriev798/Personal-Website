@@ -470,29 +470,19 @@
         <!-- Chatbot script -->
         <!-- <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>6701574fb561b00b97c6a3e4,67015731c5157421120458f5</script> -->
         <!-- <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="67015ccb0e98d39718029afc" async></script> -->
-        <iframe style="height:100vh;width:100vw" frameBorder="0" 
-        src="https://widget.botsonic.com/CDN/index.html?service-base-url=https%3A%2F%2Fapi-azure.botsonic.ai&token=4e6dcf5e-744e-4a0f-87a4-e313c607735a&base-origin=https%3A%2F%2Fbot.writesonic.com&instance-name=Botsonic&standalone=true&page-url=https%3A%2F%2Fpersonal-website-qoriev-manuchehr.vercel.app">
-        </iframe>
-        
-        <script>
-            (function (w, d, s, o, f, js, fjs) {
-              w["botsonic_widget"] = o;
-              w[o] =
-                w[o] ||
-                function () {
-                  (w[o].q = w[o].q || []).push(arguments);
-                };
-              (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
-              js.id = o;
-              js.src = f;
-              js.async = 1;
-              fjs.parentNode.insertBefore(js, fjs);
-            })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
-            Botsonic("init", {
-              serviceBaseUrl: "https://api-azure.botsonic.ai",
-              token: "4e6dcf5e-744e-4a0f-87a4-e313c607735a",
-            });
-        </script>
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                  window.voiceflow.chat.load({
+                    verify: { projectID: '67012836572c298c66c6c3bf' },
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                  });
+                }
+                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+          </script>
     </div>
 </body>
 </html>
