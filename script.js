@@ -214,3 +214,38 @@ ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-her
 
 // // Listen for the switcher change event
 // themeSwitch.addEventListener('change', toggleTheme);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    // Example of an asynchronous task
+    fetch(request.url)
+        .then(response => response.json())
+        .then(data => {
+            sendResponse({ data });
+        })
+        .catch(error => {
+            console.error(error);
+            sendResponse({ error: 'Failed to fetch data' });
+        });
+    
+    // Return true to indicate you want to send a response asynchronously
+    return true;
+});
