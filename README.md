@@ -1,11 +1,5 @@
 # Portfolio Website Project
 
-## Student Information
-- **Name:** Qoriev Manuchehr
-- **Student ID:** 1000002573
-- **Course:** Web and Internet Technologies
-- **Date:** March 2024
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
