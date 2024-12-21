@@ -1,42 +1,97 @@
-# Manuchehr Qoriev's Portfolio Website
+# Portfolio Website Project
 
-
-
-This is the personal portfolio website of Manuchehr Qoriev, showcasing his skills, projects, and contact information.
+## Student Information
+- **Name:** Qoriev Manuchehr
+- **Student ID:** 1000002573
+- **Course:** Web and Internet Technologies
+- **Date:** March 2024
 
 ## Table of Contents
-
-- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Challenges and Solutions](#challenges-and-solutions)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [References](#references)
 
-## Introduction
+## Project Overview
+This portfolio website serves as a professional showcase of my skills, projects, and experience as a full-stack developer and machine learning engineer. The website is designed to provide visitors with an interactive and visually appealing experience while presenting my technical capabilities and achievements.
 
-Welcome to my personal portfolio website. This website serves as a platform to display my skills, projects, and contact information. It is designed to give visitors a glimpse of my capabilities as a full-stack developer and machine learning engineer.
+## Technologies Used
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript
+- **Libraries & Frameworks:**
+  - BoxIcons
+  - Swiper.js
+  - ScrollReveal
+  - Mixitup (for portfolio filtering)
+- **Other Tools:**
+  - Git/GitHub for version control
+  - VS Code as IDE
 
 ## Features
+1. **Responsive Design:**
+   - Mobile-first approach
+   - Adaptive layout for all screen sizes
+   - Hamburger menu for mobile devices
 
-- Responsive design for various screen sizes.
-- Navigation menu for easy access to different sections of the website.
-- About Me section with information about my background and skills.
-- Portfolio section showcasing various projects, including machine learning, game development, and web development.
-- Contact Me section with a form to send messages.
-- Skill progress bars showing proficiency in different technologies.
-- Scroll-to-top button for easy navigation.
+2. **Interactive Elements:**
+   - Animated text transitions
+   - Smooth scrolling navigation
+   - Portfolio project filtering
+   - Skill progress circles
+   - Social media integration
 
-## Technologies
+3. **Sections:**
+   - Hero section with animated introduction
+   - About section with tabbed content
+   - Portfolio gallery with filtering
+   - Skills showcase with progress indicators
+   - Contact information and social links
 
-The website is built using the following technologies:
+4. **Performance Optimizations:**
+   - Optimized images
+   - Efficient CSS animations
+   - Lazy loading for images
 
-- HTML5
-- CSS3
-- JavaScript
-- Swiper.js (for the image slider)
-- Mixitup (for portfolio filtering)
-- ScrollReveal (for animations)
+## Project Structure
 
-### This portfolio was inspired by Bi Boo Sand's YouTube videos (@BiBooSand)
+## Challenges and Solutions
+
+### 1. Responsive Design Implementation
+- **Challenge:** Creating a consistent layout across different devices
+- **Solution:** Implemented CSS Grid and Flexbox with media queries
+
+### 2. Animation Performance
+- **Challenge:** Smooth animations without impacting performance
+- **Solution:** Used CSS transforms and opacity for animations instead of layout properties
+
+### 3. Portfolio Filtering
+- **Challenge:** Implementing smooth filtering transitions
+- **Solution:** Utilized Mixitup library with custom configurations
+
+## Installation
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+```
+
+2. Open `index.html` in your preferred browser
+
+## Usage
+The website can be navigated using the top navigation menu or by scrolling. The portfolio section includes filters to view specific types of projects, and all external links open in new tabs for better user experience.
+
+## References
+- Design Inspiration: [Bi Boo Sand YouTube Channel](https://youtube.com/@BiBooSand)
+- Icons: [BoxIcons](https://boxicons.com/)
+- Animations: [ScrollReveal](https://scrollrevealjs.org/)
+- Portfolio Filtering: [MixItUp](https://www.kunkalabs.com/mixitup/)
+
+---
+© 2024 Qoriev Manuchehr. All Rights Reserved.
+```
